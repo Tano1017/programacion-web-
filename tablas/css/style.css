@@ -1,0 +1,60 @@
+body {
+    background-color: #f41d1d;
+    width: 1440px;
+    height: 900px;
+    text-align: center;
+    display: block  ;
+
+}
+
+table {
+    width: 750;
+    height: 250px;
+    background-color: aqua;
+    border-style: solid;
+    border-color: aqua;
+}
+
+.titable {
+    border: 25px;
+    color: aqua;
+    background-color: black;
+}
+
+.titabla {
+    background-color: Orgb(43, 43, 47) ;
+}
+
+
+.titabla1 {
+    border-top-right-radius: 25px;
+}
+
+.titabla2 {
+    border-top-left-radius: 25px;
+}
+
+td{
+    border: 1px solid black;
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    padding: auto;
+}
+
+
+td:hover{
+    border-color: aqua;
+background-color: blanchedalmond;
+}
+
+
+
+
+.titabla3 {
+    border-bottom-right-radius: 25px;
+}
+
+.titabla4 {
+    border-bottom-left-radius: 25px;
+}
