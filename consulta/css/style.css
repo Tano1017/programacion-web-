@@ -1,8 +1,92 @@
+/*estilosencabezado*/
+header {
+  background-color: #333;
+  border-radius: 10px;
+  color: #ffffff72;
+  padding: 10px;
+}
+
+
+nav ul {
+  list-style: circle;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.boton-menu {
+  display: inline-block;
+  padding: 5px;
+  background-color: #eee;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  font-size: 10px;
+  margin: 10px;
+}
+:target {
+  display: block;
+  visibility: visible;
+  position: relat;
+  top: -50px;
+}
+
+:target::before {
+  content: "";
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+}
+
+
+
+/*fin encabezado */
+
+
+h1{
+  color: #030303;
+  text-align: center;
+
+  font-size: 100px;
+  font-family: 'arial', sans-serif;
+}
+p{
+  color: #000000;
+  text-align: justify;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 30px;
+  font-family: 'arial', sans-serif;
+}
+
+h2{
+  color: #000000;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'arial', sans-serif;
+}
 body{
-    margin: 10px;
-    padding: 10px;
-  }
-  .background {
-    background-image: url('img/fondo.jpg');
-    background-repeat: repeat;
-  }
+  
+  background: rgba( 27, 20, 191, 0.6 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4.5px );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
