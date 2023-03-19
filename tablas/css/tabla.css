@@ -55,3 +55,13 @@ form{
 .titable2{
     border-top-left-radius: 25px;
 }
+.boton{
+    background-color: aqua;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: blue;
+    color: blue;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+}
